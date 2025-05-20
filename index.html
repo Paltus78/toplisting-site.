@@ -1,38 +1,83 @@
+<!-- index.html  (Tailwind CDN)  —  вставьте в репозиторий -->
 <!DOCTYPE html>
-<html lang="ru">
-<head>
+<html lang="ru" class="scroll-smooth"><head>
 <meta charset="utf-8">
-<title>TopListing — Шаблоны для продавцов WB & Ozon</title>
+<title>TopListing — AI-шаблоны для Wildberries & Ozon</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<style>
-body{font-family:system-ui,Arial,sans-serif;margin:0;padding:0;background:#fafafa;color:#222}
-header{padding:40px 20px;text-align:center}
-h1{margin:0;font-size:2.2rem}
-button{padding:14px 28px;font-size:1rem;border:none;border-radius:6px;background:#6d4cff;color:#fff;cursor:pointer}
-section{max-width:720px;margin:40px auto;padding:0 20px;line-height:1.55}
-footer{margin:60px 0 20px;text-align:center;font-size:.9rem;color:#777}
-</style>
-</head>
-<body>
-<header>
-  <h1>TopListing — выводите свои листинги в&nbsp;топ Wildberries&nbsp;&amp;&nbsp;Ozon</h1>
-  <p>10 готовых AI-шаблонов + еженедельная рассылка по&nbsp;росту продаж</p>
-  <!-- Кнопка оплаты появится здесь, как только Сбер пришлёт API-ключи -->
-  <button disabled>Скоро старт</button>
-</header>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>html{font-family:Inter,Arial,sans-serif}.bg-grad{background:linear-gradient(135deg,#4F46E5 0%,#7C3AED 100%)}</style>
+</head><body class="antialiased text-gray-800">
 
-<section>
-  <h2>Что внутри Start-Pack 1.0</h2>
-  <ul>
-    <li>Генератор SEO-заголовков под WB/Ozon</li>
-    <li>Чек-лист идеальной карточки товара</li>
-    <li>Промпт для анализа конкурента за 30 секунд</li>
-    <li>Матрица A/B-креативов для рекламы</li>
-    <li>...</li>
-  </ul>
-  <p><strong>Цена запуска: 3 900 ₽</strong> (доступ навсегда, обновления — 1 месяц бесплатно).</p>
+<!-- HERO -->
+<section class="bg-grad text-white py-20">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <h1 class="text-4xl sm:text-5xl font-bold">Выведите листинги в топ WB & Ozon за 15 минут с AI-Start-Pack’ом</h1>
+    <p class="mt-6 text-lg">10 готовых шаблонов + чек-листы, которые уже увеличивают CTR до 2×.</p>
+    <a href="#price" class="inline-block mt-8 px-8 py-4 bg-white text-purple-700 font-semibold rounded-xl shadow hover:bg-purple-50">Получить за 3 900 ₽</a>
+    <p class="mt-2 text-xs opacity-80">7-дневная гарантия возврата</p>
+  </div>
 </section>
 
-<footer>© 2025 TopListing</footer>
-</body>
-</html>
+<!-- SOCIAL PROOF -->
+<section class="py-10 bg-gray-50">
+  <div class="text-center uppercase text-xs tracking-widest text-gray-500 mb-6">Нам доверяют селлеры</div>
+  <div class="flex flex-wrap justify-center gap-6 opacity-70">
+    <img src="https://dummyimage.com/100x32/ddd/aaa&text=TechGadget">
+    <img src="https://dummyimage.com/100x32/ddd/aaa&text=MamaKids">
+    <img src="https://dummyimage.com/100x32/ddd/aaa&text=HomeDecor">
+    <img src="https://dummyimage.com/100x32/ddd/aaa&text=FitStyle">
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="py-16">
+  <h2 class="text-3xl font-bold text-center mb-12">Что внутри пакета</h2>
+  <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto px-4">
+    <div class="bg-white p-6 rounded-2xl shadow"><h3 class="font-semibold mb-1">SEO-заголовки</h3><p class="text-sm">10 вариантов по ключам «мама+осень» — за 15 сек.</p></div>
+    <div class="bg-white p-6 rounded-2xl shadow"><h3 class="font-semibold mb-1">Чек-лист конверсии</h3><p class="text-sm">66 критериев идеальной карточки.</p></div>
+    <div class="bg-white p-6 rounded-2xl shadow"><h3 class="font-semibold mb-1">Анализ конкурента</h3><p class="text-sm">Отчёт TOP-5 за 30 секунд.</p></div>
+    <div class="bg-white p-6 rounded-2xl shadow"><h3 class="font-semibold mb-1">Матрица A/B-креативов</h3><p class="text-sm">15 шаблонов баннеров и видео.</p></div>
+    <div class="bg-white p-6 rounded-2xl shadow"><h3 class="font-semibold mb-1">Генератор FAQ</h3><p class="text-sm">Сокращает вопросы на 30 %.</p></div>
+    <div class="bg-white p-6 rounded-2xl shadow"><h3 class="font-semibold mb-1">Мониторинг позиций</h3><p class="text-sm">Шаблон отслеживания CTR.</p></div>
+  </div>
+</section>
+
+<!-- HOW WORKS -->
+<section class="py-16 bg-gray-50">
+  <h2 class="text-3xl font-bold text-center mb-12">Как это работает</h2>
+  <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto px-4 text-center">
+    <div><div class="w-12 h-12 mx-auto rounded-full bg-grad flex items-center justify-center font-bold text-white mb-4">1</div><h3 class="font-semibold mb-1">Скачайте пак</h3><p class="text-sm">PDF + Notion + Sheets.</p></div>
+    <div><div class="w-12 h-12 mx-auto rounded-full bg-grad flex items-center justify-center font-bold text-white mb-4">2</div><h3 class="font-semibold mb-1">Вставьте данные</h3><p class="text-sm">Промпты подставят ключи и цены.</p></div>
+    <div><div class="w-12 h-12 mx-auto rounded-full bg-grad flex items-center justify-center font-bold text-white mb-4">3</div><h3 class="font-semibold mb-1">Получите рост</h3><p class="text-sm">CTR ↑ и продажи растут — иначе возврат.</p></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="py-16">
+  <h2 class="text-3xl font-bold text-center mb-10">Отзывы</h2>
+  <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 px-4">
+    <blockquote class="bg-white shadow p-6 rounded-2xl"><p class="italic">«CTR вырос с 2,3 % до 4,6 % за 5 дней. Шаблоны заголовков ‒ бомба!»</p><footer class="text-xs mt-3 font-semibold">Ирина, ниша «Детская одежда»</footer></blockquote>
+    <blockquote class="bg-white shadow p-6 rounded-2xl"><p class="italic">«Сэкономили 6 часов в месяц на поддержке благодаря AI-FAQ»</p><footer class="text-xs mt-3 font-semibold">Сергей, аксессуары для авто</footer></blockquote>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="price" class="py-20 bg-grad text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">Start-Pack 1.0</h2>
+  <p class="text-lg mb-6">разовая покупка <span class="line-through opacity-60">5 900 ₽</span> <span class="text-4xl font-bold">3 900 ₽</span></p>
+  <!-- кнопку заменим на эквайринг -->
+  <button class="px-10 py-4 bg-white text-purple-700 font-semibold rounded-xl shadow transition opacity-60 cursor-not-allowed">Оплата появится после подключения Сбера</button>
+  <p class="text-xs mt-4 opacity-90">Вернём деньги в течение 7 дней, если не окупится</p>
+</section>
+
+<!-- FAQ -->
+<section class="py-16">
+  <h2 class="text-3xl font-bold text-center mb-8">FAQ</h2>
+  <div class="max-w-3xl mx-auto space-y-4 px-4">
+    <details class="bg-gray-50 p-4 rounded-lg"><summary class="font-semibold cursor-pointer">Нужен ChatGPT Plus?</summary><p class="mt-2 text-sm">Нет, достаточно бесплатной версии.</p></details>
+    <details class="bg-gray-50 p-4 rounded-lg"><summary class="font-semibold cursor-pointer">Какая окупаемость?</summary><p class="mt-2 text-sm">Средний рост CTR x2 даёт +25-40 % продаж, что окупает 3 900 ₽ за 2-3 дня.</p></details>
+  </div>
+</section>
+
+<footer class="py-8 bg-gray-100 text-center text-xs text-gray-600">© 2025 TopListing · ИП Иванов И. И. ОГРНИП 0000000000000</footer>
+</body></html>
